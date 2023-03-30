@@ -1,0 +1,6 @@
+[29-Mar-2023 15:02:03 UTC] PHP Warning:  Unknown: Failed to open stream: No such file or directory in Unknown on line 0
+[29-Mar-2023 15:02:03 UTC] PHP Fatal error:  Failed opening required 'index.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[29-Mar-2023 15:02:29 UTC] PHP Warning:  Unknown: Failed to open stream: No such file or directory in Unknown on line 0
+[29-Mar-2023 15:02:29 UTC] PHP Fatal error:  Failed opening required 'index.php' (include_path='.;C:\php\pear') in Unknown on line 0
+[29-Mar-2023 15:02:44 UTC] PHP Warning:  Unknown: Failed to open stream: No such file or directory in Unknown on line 0
+[29-Mar-2023 15:02:44 UTC] PHP Fatal error:  Failed opening required 'index.php' (include_path='.;C:\php\pear') in Unknown on line 0
