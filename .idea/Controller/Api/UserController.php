@@ -9,6 +9,7 @@ class UserController extends BaseController
     {
         $errorMsg = '';
         $requestMethod = $_SERVER["REQUEST_METHOD"];
+        $strErrorDesc = '';
         switch (strtoupper($requestMethod)) {
             case "GET":
                 try {
