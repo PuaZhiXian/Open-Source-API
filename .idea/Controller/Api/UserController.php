@@ -50,7 +50,7 @@ class UserController extends BaseController
         $pua = new User('PUA ZHI XIAN', 'FullStack Developer');
         $jiahong = new User('Sim Jia Hong', 'UI/UX Developer');
         $chunHan = new User('Tiow Chun Han', 'Frontend Developer');
-        $yihang = new User('Low Yi Hang', 'Backend Developer');
+        $yihang = new User('Loi Yi Hang', 'Backend Developer');
         return array($pua, $jiahong, $chunHan, $yihang);
     }
 }
