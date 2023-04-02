@@ -3,17 +3,21 @@
 class User
 {
     public $name;
-    public $postion;
+    public $position;
+    public $image;
 
     /**
      * @param $name
      * @param $postion
+     * @param $image
      */
-    public function __construct($name, $postion)
+    public function __construct($name, $position, $image)
     {
         $this->name = $name;
-        $this->postion = $postion;
+        $this->position = $position;
+        $this->image = $image;
     }
+
 }
 
 ?>
