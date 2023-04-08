@@ -11,13 +11,19 @@ $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri = explode('/', $uri);
 
 require PROJECT_ROOT_PATH . "Controller/Api/userController.php";
+require PROJECT_ROOT_PATH . "Controller/Api/ArticleController.php";
 
 $objFeedController = new UserController();
+$ArticleController = new ArticleController();
 
 switch ($uri[1]) {
     case "user":
         $objFeedController->setAction(implode(array_slice($uri, 2)));
         $objFeedController->listAction();
+        break;
+    case "article":
+        $ArticleController->setAction(implode(array_slice($uri, 2)));
+        $ArticleController->listAction();
         break;
 }
 ?>
