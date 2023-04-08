@@ -21,7 +21,7 @@ class ArticleModel
      * @param $url
      * @param $date
      */
-    public function __construct($id, $title, $description, $image, $dataSource, $category, $url, $date)
+    public function __construct($id, $image, $title, $description, $dataSource, $category, $url, $date)
     {
         $this->id = $id;
         $this->title = $title;
