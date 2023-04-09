@@ -47,10 +47,10 @@ class UserController extends BaseController
 
     public function getUser()
     {
-        $jiahong = new User('Sim Jia Hong', 'Product Manager', "assets/images/intro/cat.jpg");
-        $pua = new User('PUA ZHI XIAN', 'Full Stack Developer', "assets/images/intro/cat.jpg");
-        $chunHan = new User('Tiow Chun Han', 'Frontend Developer', "assets/images/intro/cat.jpg");
-        $yihang = new User('Low Yi Hang', 'Backend Developer', "assets/images/intro/cat.jpg");
+        $jiahong = new User('Sim Jia Hong', 'Product Manager', "assets/images/users/Sim Jia Hong.jpg");
+        $pua = new User('Pua Zhi Xian', 'Full Stack Developer', "assets/images/users/Pua Zhi Xian.jpeg");
+        $chunHan = new User('Tiow Chun Han', 'Frontend Developer', "assets/images/users/Tiow Chun Han.JPG");
+        $yihang = new User('Low Yi Hang', 'Backend Developer', "assets/images/users/Loi Yi Hang.jpg");
         return array($jiahong, $pua, $chunHan, $yihang);
     }
 }
