@@ -53,7 +53,7 @@ class ArticleController extends BaseController
             "National Aeronautics and Space Administration (NASA)",
             "Climate Science",
             'https://climate.nasa.gov/vital-signs/sea-level/ ',
-            1680925927);
+            1680498911000);
         $article1 = new ArticleModel(
             'A1',
             'disasters.jpg',
@@ -62,7 +62,7 @@ class ArticleController extends BaseController
             "Carbon Brief",
             "Climate Change and Extreme Weather",
             'https://www.carbonbrief.org/mapped-how-climate-change-affects-extreme-weather-around-the-world/ ',
-            1680925927);
+            1680498911000);
         $article2 = new ArticleModel(
             'A2',
             'livingPlanetIndex.png',
@@ -71,7 +71,7 @@ class ArticleController extends BaseController
             "Our World in Data",
             "Biodiversity",
             'https://ourworldindata.org/biodiversity ',
-            1680925927);
+            1680498911000);
         return array($article0, $article1, $article2);
     }
 }
