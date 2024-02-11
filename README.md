@@ -1,3 +1,7 @@
+# About
+Open Source Programming: Applications And Technology 2022/2023
+Create API using PHP to support frontend
+
 # Welcome to PHP Backend
 
 
